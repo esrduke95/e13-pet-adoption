@@ -67,7 +67,7 @@ const printToDom = (divId, textToPrint) => {
 const buildPetCards = () => {
     let domString = "";
 
-    for (let i = 0; j < pets.length; i++) {
+    for (let i = 0; i < pets.length; i++) {
         domString += `<div class="petCard">`
         domString += `<div class="petName">${pets[i].name}</div>`
         domString += `${pets[i].image}`
