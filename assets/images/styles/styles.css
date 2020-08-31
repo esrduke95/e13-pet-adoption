@@ -1,0 +1,85 @@
+/*FONTS
+font-family: 'Oleo Script', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+/*COLOR PALETTE
+--raisin-black: #1e1e24ff;
+--white: #ffffffff;
+--indian-red: #da5552ff;
+--champagne-pink: #fee4d8ff;
+--honey-yellow: #f5ad29ff;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("./sakura.png");
+    font-family: 'Raleway', sans-serif;
+}
+
+.card {
+    background-color: whitesmoke;
+    border-color: indianred;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 275px;
+    margin: 25px;
+    padding: 35px;
+    text-align: center;
+}
+
+#pets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#logo {
+    max-width: 500px;
+}
+
+#logoWrapper {
+    max-height: 275px;
+    text-align: center;
+}
+
+header {
+    height: 350px;
+    margin-bottom: 50px;
+}
+
+#filterButtons {
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    background-color: #da5552ff;
+    border: none;
+    padding: 15px;
+    display: inline-block;
+    color: whitesmoke;
+    margin: 10px;
+    font-family: 'Oleo Script', cursive;
+    font-size: large;
+}
+
+h2 {
+    font-family: 'Oleo Script', cursive;
+}
+
+.nameBanner {
+    background-color: #fee4d8ff;
+}
+
+.petImg {
+    padding-bottom: 20px;
+}
